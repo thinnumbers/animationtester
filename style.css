@@ -1,0 +1,40 @@
+body{
+  background-color: green;
+}
+h1{
+  text-align: center;
+    transition: padding 2s,font-size 2s;
+}
+
+h1:hover{
+  padding: 5vw;
+  font-size:5vw;
+}
+
+.animal {
+  color: blue;
+  transition: color 1s;
+}
+
+.animal:hover{
+  color: red;
+}
+
+.animal2{
+  font-size: 200%;
+}
+
+.animal2:hover{
+  animation: blink 1s;
+}
+img{
+  display:inline;
+  text-align: center;
+}
+
+@keyframes blink {
+  0%{ color: green;}
+  50% {color: white;
+  font-size: 300%;}
+  100%{color: blue;}
+}
